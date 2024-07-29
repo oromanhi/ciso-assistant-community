@@ -22,3 +22,4 @@ django-allauth[socialaccount]==0.63.5
 pre-commit==3.7.1
 django-allauth[saml]==0.63.5
 django-allauth==0.63.5
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
