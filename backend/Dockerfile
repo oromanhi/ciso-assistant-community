@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 # Based on https://docs.docker.com/samples/django/
 
-FROM python:3.11-alpine
+FROM python:3.12.0a1-alpine
 ENV PYTHONUNBUFFERED=1
 ENV PYTHONDONTWRITEBYTECODE=1
 
